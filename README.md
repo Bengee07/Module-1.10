@@ -22,7 +22,9 @@ Learners will be able to:
 |--------|-----|-------|
 |- 5mins |Start zoom session|So that students can join early and start class on time|
 |10 mins|Self studies check-in|Prepare 3 questions for students to answer as a form of warm up and engaging students with the lesson topic.|
-|30 mins|Conceptual Knowledge| Instructors brief students on the subject matter conceptually before diving into hands on. This section can be shorter but not longer. Use video clips for explanation if necessary.|
+|10 mins|Conceptual Knowledge| Environments Differentiation|
+|10 mins|Conceptual Knowledge| Environments Differentiation|
+|10 mins|Conceptual Knowledge| Environments Differentiation|
 |20 mins|Code Along| Practical hands on|
 ||**1 HR MARK**|
 |5 mins|Break|Break|
