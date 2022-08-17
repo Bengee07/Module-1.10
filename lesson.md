@@ -135,26 +135,10 @@ To sum up:
 
 ---
 
-## Part 5 - Server Environments Differentiation
-
-The utilization of numerous environments is a suggested procedure for any big software development project, regardless of how your DevOps process appears and the many tools you employ. Before being deployed and made accessible to consumers, your product will have undergone thorough testing thanks to the utilization of numerous environments.
-
-You should have minimum of two types of server environments: the Local Test Server and Production Server(s).
-
-
-**Development**: The development environment would be the first line of defense against bugs. Here, developers deploy their code and test any newly implemented features. Any bugs found are dealt with before re-deploying for further testing. The process is iterated until the code is ready for the next stage of testing.
-
-
-**Staging**: Once developers are satisfied with their code and consider it fairly stable, it is then deployed to the staging environment for further testing. This is where Quality Assurance (QA) is performed. Testers access the staging servers and ensure that the application works as it should. They run test cases to detect bugs and run performance tests to find areas that could be improved. Any bugs or enhancements are reported back to the developers and the process is repeated until the code passes the staging phase.
-
-
-**Production**: Once the code has been thoroughly tested, it is then pushed to production where it is made available to end-users.
-
-
-The three typical environments for software projects are shown in the environment configuration above, which is merely an illustration. Depending on the requirements of your team and project, your setup may change. You could set up more or fewer environments; for example, some prefer to have a Pre-production environment to test the code more thoroughly before the final deployment to Production, while others keep separate Staging and QA environments, where developers run additional tests (such as integration tests) in the Staging environment and the QA environment is used only for quality assurance testing.
+## Part 5 - Insert Summary
 
 ---
 
-## Part 4 - Insert Summary
+## Part 6 - Insert Summary
 
 Insert Instructions
