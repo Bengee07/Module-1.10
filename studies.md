@@ -15,7 +15,7 @@ Technical knowledge is vast. Timebox yourself for 3 hours to work on the followi
 - [Clustering](https://www.volico.com/understanding-clustering-servers-capabilities/)
 - [Whitelist](https://nordvpn.com/blog/what-is-whitelisting/)
 - [Load Balancing](https://www.nginx.com/resources/glossary/load-balancing/)
-- 
+
 
 ### Helpful Links (References)
 
