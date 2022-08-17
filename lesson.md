@@ -73,9 +73,40 @@ This model has a single node and is most frequently used for testing purposes. A
 
 A customer service agent at a nearby data center or web hosting company may go over the differences between the three models in further depth and help you choose the one that will work best for your company. In general, the Standard Quorum Cluster is your best option unless you have unusual demands (or are located in several, geographically scattered sites).
 
+
 ---
 
-## Part 3 - Blacklisting
+
+## Part 2 - Load Balancer
+
+
+Load balancing refers to efficiently distributing incoming network traffic across a group of backend servers, also known as a server farm or server pool.
+
+Modern high‑traffic websites must serve hundreds of thousands, if not millions, of concurrent requests from users or clients and return the correct text, images, video, or application data, all in a fast and reliable manner. To cost‑effectively scale to meet these high volumes, modern computing best practice generally requires adding more servers.
+
+A load balancer acts as the “traffic cop” sitting in front of your servers and routing client requests across all servers capable of fulfilling those requests in a manner that maximizes speed and capacity utilization and ensures that no one server is overworked, which could degrade performance. If a single server goes down, the load balancer redirects traffic to the remaining online servers. When a new server is added to the server group, the load balancer automatically starts to send requests to it.
+
+In this manner, a load balancer performs the following functions:
+
+- Distributes client requests or network load efficiently across multiple servers
+- Ensures high availability and reliability by sending requests only to servers that are online
+- Provides the flexibility to add or subtract servers as demand dictates
+
+
+![image](https://user-images.githubusercontent.com/106639884/185006473-f9ee5f80-720f-402b-bd10-5710099bc16f.png)
+
+
+### Benefits of Load Balancing
+
+- Reduced downtime
+- Scalable
+- Redundancy
+- Flexibility
+- Efficiency
+
+---
+
+## Part 4 - Blacklisting
 
 ![image](https://user-images.githubusercontent.com/106639884/185005618-1811f977-8ebe-44c7-902b-ea754fe48dda.png)
 
@@ -111,7 +142,7 @@ Hackers also sometimes design malware specifically to evade detection by tools t
 ---
 
 
-## Part 4 - Whitelisting
+## Part 5 - Whitelisting
 
 
 ![image](https://user-images.githubusercontent.com/106639884/185005606-764539fe-40c0-461d-9d84-27600c692613.png)
@@ -135,10 +166,6 @@ To sum up:
 
 ---
 
-## Part 5 - Insert Summary
+## Part 5 - Activity
 
----
-
-## Part 6 - Insert Summary
-
-Insert Instructions
+**Add Activity**
