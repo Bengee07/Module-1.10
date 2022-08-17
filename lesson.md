@@ -75,7 +75,67 @@ A customer service agent at a nearby data center or web hosting company may go o
 
 ---
 
-## Part 3 - Server Environments Differentiation
+## Part 3 - Blacklisting
+
+![image](https://user-images.githubusercontent.com/106639884/185005618-1811f977-8ebe-44c7-902b-ea754fe48dda.png)
+
+
+Establishing which entities should be blacklisted is a step in the blacklisting strategy. A blacklist is a list of suspect or hostile entities to which access to a network or system should be forbidden.
+
+A border control authority, as an illustration in the real world, might keep a blacklist of known or suspected terrorists. A store owner might keep track of shoplifters on a blacklist. A blacklist of malware, including viruses, spyware, Trojan horses, worms, and other forms of malware, is common in the area of network security. A blacklist of individuals, IP addresses, programs, emails, domains, processes, or organizations is another option. Blacklisting can be used for almost every part of your network.
+
+By looking at their digital signatures, heuristics, habits, or other characteristics, you can spot suspicious or malevolent entities. Organizations can use lists made by third parties, such as network security service providers, as well as their own blacklists to delist applications. The classic method of access control is blacklisting, which has long been employed by spam filters, intrusion detection systems, anti-virus tools, and other security software applications.
+
+The blacklist approach is threat-centric, and the default is to allow access. Any entity not on the blacklist is granted access, but anything that’s known or expected to be a threat is blocked.
+
+To sum up:
+
+- Blacklisting involves blocking access to suspicious or malicious entities.
+- The default is to allow access. 
+- Blacklisting is threat-centric.
+
+
+### Pros and Cons of Blacklisting
+
+One of the biggest pros of the blacklisting approach is its simplicity. It works based on a simple principle — just identify the known and suspected threats, deny them access and let everything else go.
+
+For users, it’s a relatively low maintenance approach. In many cases, your security software or security service provider will handle compiling the list with little need for input from the user.
+
+A blacklist can never be comprehensive, though, since new threats emerge constantly. Every day, the AV-TEST Institute, which researches IT security, registers more than 350,000 new malicious programs and potentially unwanted applications. While keeping up with these threats is challenging, threat information sharing can help make blacklists more effective.
+
+Even with information sharing, it’s easy for security software providers to miss threats simply because there are so many. While blacklisting is effective against known threats, it’s useless against new, unknown threats like zero-day attacks. If your organization is unlucky enough to be the first to be hit with a new kind of attack, blacklisting won’t be able to stop it.
+
+Hackers also sometimes design malware specifically to evade detection by tools that use a blacklist system. They may be able to modify the malware so the blacklist tool does not recognize it as a blacklisted item.
+
+
+---
+
+
+## Part 4 - Whitelisting
+
+
+![image](https://user-images.githubusercontent.com/106639884/185005606-764539fe-40c0-461d-9d84-27600c692613.png)
+
+
+Whitelisting tackles the same challenges as blacklisting but uses the opposite approach. Instead of creating a list of threats, you create a list of permitted entities and block everything else. It’s based on trust, and the default is to deny anything new unless it’s proven to be acceptable. This results in a much stricter approach to access control. It’s analogous to denying everyone access to your office building unless they can pass a background check and have the credentials to prove that they did.
+
+The whitelisting strategy, for example, is used when a firewall only permits specific IP addresses to enter a network. The Apple app store is another illustration that most people have encountered. The business only allows consumers to use programs that Apple has authorized and added to the app store.
+
+The simplest method for adding programs to a whitelist is to recognize them by their file name, size, and directory path. The issue with this method is that hackers might make a program that has the same file name and size as a whitelisted app, which would allow it to infiltrate the system. You can employ a tougher strategy to avoid this risk, as advised by the National Institute of Standards and Technology (NIST) of the United States. It makes use of digital signatures created by the creator or maker of each component as well as cryptographic hashing techniques.
+
+You must take into account all of the jobs that users must carry out and the tools they'll require to do so in order to develop a whitelist for the network level. In addition to more specific information like application dependencies, software libraries, plugins, extensions, and configuration files, this network-level whitelist may also contain network infrastructure, sites, locations, applications, users, contractors, services, and ports. A user-level whitelist could contain files, applications, and email addresses. You must take into account both user privileges and user activities while using the whitelist strategy.
+
+Organizations can create their own whitelists or work with third parties that typically create reputation-based whitelists and give ratings to software and other items based on their age, digital signatures and other factors.
+
+To sum up:
+
+- Whitelisting involves only allowing access for approved entities.
+- The default is to block access.
+- Whitelisting is trust-centric.
+
+---
+
+## Part 5 - Server Environments Differentiation
 
 The utilization of numerous environments is a suggested procedure for any big software development project, regardless of how your DevOps process appears and the many tools you employ. Before being deployed and made accessible to consumers, your product will have undergone thorough testing thanks to the utilization of numerous environments.
 
