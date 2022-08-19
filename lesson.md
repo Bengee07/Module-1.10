@@ -21,7 +21,7 @@ Each server in a clustered server environment is in charge of owning and managin
 
 The main justification for server clusters is uptime and outage prevention. Clustered servers, as previously discussed, provide improved security against a network falling offline due to a power outage. Servers in a cluster are guarded against three different kinds of outages.
 
-In brief, server clustering helps provide security against outages that originate from software failure, hardware failure, and outages that happen from unrelated events operating against the physical server site. We'll go into more depth about these sorts of failures in the next sections.
+In brief, server clustering helps provide security against outages that originate from software failure, hardware failure, and outages that happen from unrelated events operating against the physical server site. 
 
 
 **Application / Service Failure**
