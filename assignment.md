@@ -2,7 +2,29 @@
 
 ### Brief
 
-Enter instruction for assignment here.
+Presentation with your own group about which method that will you use to handle these case
+
+
+**Case:**
+
+- eCommerce
+- Financial Institution
+- Government
+- Personal Static Website
+- eMail Application
+
+
+**Method:**
+
+- Clustering
+- Load Balancing
+- Whitelisting
+- Blacklisting
+
+
+You may combine more than 1 method and give details what and why you do it.
+
+
 
 ### Submission 
 
@@ -11,18 +33,4 @@ Enter instruction for assignment here.
 
 ### References
 
-_Example of Referencing Classmate_
-
-Referenced the code block below from Terence.
-```js
-    function printMe(){
-        console.log("I am a reference example");
-    }
-```
-
-_Example of Referencing Online Resources_
-
-- https://developer.mozilla.org/en-US/
-- https://www.w3schools.com/html/
-- https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github
 
