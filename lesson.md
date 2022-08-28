@@ -172,17 +172,18 @@ Prepare presentation with your own group about which method that will you use to
 
 Case:
 
-eCommerce
-Financial Institution
-Government
-Personal Static Website
-eMail Application
+- eCommerce
+- Financial Institution
+- Government
+- Personal Static Website
+- Email Application
 
 
 Method:
 
-Clustering
-Load Balancing
-Whitelisting
-Blacklisting
+- Clustering
+- Load Balancing
+- Whitelisting
+- Blacklisting
+
 You may combine more than 1 method and give details what and why you do it.
