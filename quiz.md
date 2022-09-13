@@ -30,7 +30,7 @@ D - Dependability
 
 ---
 
-Q4: Server clustering helps to provide 
+Q4: Server clustering helps to solve 
 
 A - Service Failure
 
