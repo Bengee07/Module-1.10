@@ -2,7 +2,7 @@
 
 ### Brief
 
-Presentation with your own group about which method that will you use to handle these case
+Within groups, you will be tasked to choose one of the scenarios below and discuss how would you design the server architecture for the selected scenario based on the methods we've discussed in class today.
 
 
 **Case:**
