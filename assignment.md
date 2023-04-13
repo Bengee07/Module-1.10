@@ -7,17 +7,20 @@ Within groups, you will be tasked to choose one of the scenarios below and discu
 
 **Case:**
 
-- eCommerce
-- Financial Institution
-- Government
-- Personal Static Website
-- eMail Application
+- eCommerce e.g. Shopee/ Lazada
+- Financial Institution e.g. DBS Mobile Banking app
+- Government e.g. IRAS Tax System
+- Personal Static Website e.g. Wordpress blog
+- eMail Application e.g. Gmail
+- Ride-Hailing application e.g. Grab/ Gojek
+- Mobile Gaming application e.g. PUBG
 
 
 **Method:**
 
 - Clustering
 - Load Balancing
+- Containerization or Virtualization
 - Whitelisting
 - Blacklisting
 
